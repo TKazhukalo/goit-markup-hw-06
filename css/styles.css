@@ -766,7 +766,10 @@ img {
     transition: background-color var(--transition-duration-func), color var(--transition-duration-func);
 
 }
-.modal-close-btn:active {
+
+.modal-close-btn:active,
+.modal-close-btn:hover 
+ {
     color: var(--primary-whirte-color);
     background-color: var(--color-active);
 }
@@ -799,6 +802,10 @@ img {
     line-height: 2.0;
     padding: 8px 16px;
     letter-spacing: 0.04em;
+}
+.mail-footer:focus {
+    outline-color: var(--accent-color);
+        border: var(--accent-color);
 }
 .your-contacts {
     display: block;
@@ -944,7 +951,7 @@ img {
     height: 18px;
 }
 
-.btn{
+.btn {
     min-width: 169px;
     min-height: 56px;
     padding: 16px 32px;
@@ -995,7 +1002,7 @@ img {
     width: 165px;
     height: 40px;
     border: 1px solid transparent;
-       
+       cursor: pointer;
 
 }
 .footer-icon-subscribe{
