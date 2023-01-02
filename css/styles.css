@@ -802,6 +802,7 @@ img {
     line-height: 2.0;
     padding: 8px 16px;
     letter-spacing: 0.04em;
+    outline: none;
 }
 .mail-footer:focus {
 
